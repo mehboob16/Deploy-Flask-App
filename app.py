@@ -7,7 +7,7 @@ def home():
     return "Hello, Vercel!"
 
 @app.route("/api")
-def home():
+def api():
     return "Hello, API!"
 
 
