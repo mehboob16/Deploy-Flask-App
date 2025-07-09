@@ -6,5 +6,10 @@ app = Flask(__name__)
 def home():
     return "Hello, Vercel!"
 
+@app.route("/api")
+def home():
+    return "Hello, API!"
+
+
 if __name__ == "main":
     app.run()
